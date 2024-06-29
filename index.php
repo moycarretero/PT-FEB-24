@@ -37,5 +37,3 @@ $apellidos = "Carretero";
     $edad = $_GET['edad'];
 
     echo "Me llamo $nombre y tengo $edad años";
-
-    echo "Esto es un cambio";
