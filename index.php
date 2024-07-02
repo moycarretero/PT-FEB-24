@@ -1,5 +1,7 @@
 <?php
 
+    require_once "funciones.php";
+
     $numero = 3;
     $numero = 'tres';
     $pi = 3.1416;
@@ -33,7 +35,19 @@ $apellidos = "Carretero";
 //    print_r($frutas);
 
 
-    $nombre = $_GET['nombre'];
-    $edad = $_GET['edad'];
+//    $nombre = $_GET['nombre'];
+ //   $edad = $_GET['edad'];
 
-    echo "Me llamo $nombre y tengo $edad años";
+    //echo "Me llamo $nombre y tengo $edad años";
+
+
+    // var texto = 'Esto es una cadena de texto'
+    // texto.toUpperCase()
+    // [].sort
+
+
+    echo suma(4,"5");
+    echo "<br>";
+    saludo("Patricia");
+echo "<br>";
+    echo dameFecha();
