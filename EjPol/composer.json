@@ -1,0 +1,11 @@
+{
+    "name": "upgrade/poo",
+    "description": "Codigo de ejemplo de composer",
+    "autoload": {
+        "psr-4": {
+            "Upgrade\\Poo\\": "src/",
+            "FigurasComplejas\\": "src/Figuras/Complejas"
+        }
+    },
+    "require": {}
+}
