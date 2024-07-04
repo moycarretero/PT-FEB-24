@@ -8,6 +8,7 @@
     // miCoche.cantidadCombustible
     // echo $miCoche->cantidadCombustible;
     $miCoche->pintaInfo();
+    $miCoche->setNumRuedas(6);
 
     $miCoche->mover(1000);
 
