@@ -1,16 +1,15 @@
 <?php
 
-class Vehiculo
+abstract class Vehiculo
 {
     protected $numRuedas;
 
     public function __construct()
     {
         $this->numRuedas = 0;
-
-
-
     }
+
+    public abstract function mover(float $distancia);
 
     /**
      * @return mixed

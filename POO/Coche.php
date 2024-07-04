@@ -22,7 +22,7 @@ class Coche extends Vehiculo
 
     }
 
-    function mover(int $distancia)
+    function mover(float $distanciaaaa)
     {
         $this->kilometrosRecorridos += $distancia;
         $this->cantidadCombustible -= $distancia * 0.05;
